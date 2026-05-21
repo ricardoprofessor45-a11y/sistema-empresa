@@ -1,0 +1,31 @@
+.sidebar {
+    width: 250px;
+    background: #0f172a;
+    min-height: 100vh;
+    padding: 20px;
+}
+.sidebar ul {
+    list-style: none;
+}
+.sidebar li {
+    margin-bottom: 20px;
+
+}
+.sidebar a {
+color: white;
+text-decoration: none;
+
+}
+.sidebar.active {
+    display: block;
+
+}
+@media(max-width: 168px) {
+    .sidebar {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 80px;
+        
+    }
+}
